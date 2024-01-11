@@ -239,7 +239,7 @@ def mouth_state_detection(frame):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('template/index.html')
 
 def generate_frames():
     while True:
